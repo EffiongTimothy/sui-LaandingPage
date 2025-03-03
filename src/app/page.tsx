@@ -9,7 +9,7 @@ import Footer from "./pages/Footer";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-hidden ">
        <HeroSection/>
         <About/>
         <Features/>

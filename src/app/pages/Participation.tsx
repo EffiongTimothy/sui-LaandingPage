@@ -3,8 +3,8 @@ import { FaCheckCircle } from "react-icons/fa"
 import participation from "../../assets/participation-requirement-image.png"
 const Participation = () => {
   return (
-    <div className="  font-sans flex flex-col md:flex-row items-center gap-15 md:max-w-6xl md:mx-auto p-6">
-      <div className="w-96 md:w-3/5">
+    <div className="mt-5 md:mt-1 font-sans flex flex-col md:flex-row items-center gap-15 md:max-w-6xl md:mx-auto p-6">
+      <div className="w-96 p-4 md:p-0 md:w-3/5">
         <div className="rounded-2xl overflow-hidden">
           <Image
             src={participation}

@@ -65,18 +65,14 @@ const HeroSection = () => {
 
   return (
     <div className="relative min-h-[600px] rounded-bl-[10%] bg-[#001437]">
-      {/* Background Effects */}
-
-      {/* Content Container */}
+z
       <div className="relative z-10 max-w-7xl mx-auto px-4 pt-8 pb-24">
-        {/* Logo Section */}
         <div className="flex justify-center items-center gap-5 mb-16">
           <Image src={semicolonLogo || "/placeholder.svg"} alt="Semicolon Logo" className="h-6 w-auto" />
           <div className="w-px h-8 bg-white"></div>
           <Image src={sui || "/placeholder.svg"} alt="Sui Logo" className="h-6 w-auto" />
         </div>
 
-        {/* Hero Title */}
         <div className="text-center mb-24">
           <div className="animate-fade-in-right">
             <Image
@@ -89,7 +85,7 @@ const HeroSection = () => {
           <h2 className="text-[#30D5D5] text-2xl mt-4">Road to Sui Overflow</h2>
         </div>
 
-        <div className="font-sans absolute left-1/2 -translate-x-1/2 translate-y-15 bottom-0 w-full max-w-3xl px-4">
+        <div className="font-sans absolute left-1/2 -translate-x-1/2 translate-y-25  md:translate-y-15 bottom-0 w-full max-w-3xl px-4">
           <div className="bg-white rounded-2xl shadow-lg p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
             {eventInfo.map((item, index) => (
               <div key={index} className="flex items-center gap-4">
