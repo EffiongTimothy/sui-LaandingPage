@@ -88,10 +88,10 @@ z
         <div className="font-sans absolute left-1/2 -translate-x-1/2 translate-y-25  md:translate-y-15 bottom-0 w-full max-w-3xl px-4">
           <div className="bg-white rounded-2xl shadow-lg p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
             {eventInfo.map((item, index) => (
-              <div key={index} className="flex items-center gap-4">
+              <div key={index} className="flex  md:justify-center gap-4">
                 <div className="flex-shrink-0 w-6 h-6">{item.icon}</div>
                 <div>
-                  <p className="text-sm text-gray-500">{item.title}</p>
+                  <p className="font-semibold text-gray-900">{item.title}</p>
                   <p className="font-semibold text-gray-900">{item.subText}</p>
                 </div>
               </div>
