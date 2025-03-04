@@ -6,7 +6,7 @@ const Eligibility = () => {
         <div className="font-sans  flex flex-col md:flex-row justify-center items-center bg- py-8 md:py-12 px-4 md:px-6 h-[550px]">
             <div className="flex flex-col md:flex-row items-center justify-center bg-[#001437] text-white p-6 md:px-20 rounded-xl md:p-10 md:gap-8 w-full md:w-[65%] relative h-[600px] md:h-[300px]">
                 <div className=" flex-1  text-left z-10 mb-8 md:mb-0">
-                    <h2 className="text-xl md:text-2xl font-bold text-[#00D1D1] mb-3 md:mb-4">
+                    <h2 className="text-xl md:text-2xl font-bold text-[#32BAC3] mb-3 md:mb-4">
                         Eligibility Criteria
                     </h2>
                     <div className="text-xl">

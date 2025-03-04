@@ -1,9 +1,9 @@
 const Features = () => {
   return (
-    <div className=" bg-[rgb(246,246,246)] font-sans grid md:grid-cols-2 md:mb-16">
-      <div className="bg-blue-100 py-16 px-8">
-        <div className="max-w-xl mx-auto">
-          <h2 className="text-2xl font-bold text-blue-600 mb-6">
+    <div className="font-sans grid md:grid-cols-2 md:mb-16">
+      <div className="bg-[rgb(235,242,255)] py-16 px-8">
+        <div className="max-w-xl mx-auto mr-9">
+          <h2 className="text-2xl font-bold text-[#187CF4] mb-6">
             Features of the Hacker House
           </h2>
           <ul className="space-y-3">
@@ -15,7 +15,7 @@ const Features = () => {
               <span className="text-blue-500 ">•</span>
               <span>Workshops and Tutorials</span>
             </li>
-            <li className="flex items-start gap-2">
+            <li className="flex text-wrap items-start gap-2">
               <span className="text-blue-500 ">•</span>
               <span>
                 Coaching and Mentorship from Move Experts, including the Sui
@@ -37,9 +37,9 @@ const Features = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-blue-50/30 py-16 px-8">
-        <div className="max-w-xl mx-auto">
-          <h2 className="text-2xl font-bold text-blue-600 mb-6">
+      <div className="bg-[#F6FAFF] py-16 px-8">
+        <div className="max-w-xl mx-auto ml-9 w-3/4 ">
+          <h2 className="text-2xl font-bold text-[#187CF4] mb-6">
             Benefits for Participating Teams
           </h2>
           <ul className="space-y-3">
@@ -55,7 +55,7 @@ const Features = () => {
               <span className="text-blue-500 ">•</span>
               <span>Hands-On Learning</span>
             </li>
-            <li className="flex items-start gap-2">
+            <li className="flex items-start gap-2 w-96">
               <span className="text-blue-500 ">•</span>
               <span>
                 Strengthen solutions that can be used to compete in global
