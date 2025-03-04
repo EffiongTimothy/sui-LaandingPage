@@ -5,12 +5,10 @@ import Link from "next/link"
 const Apply = () => {
   return (
     <div className=" font-sans py-16 px-4 relative">
-      {/* Light blue background strip */}
       <div className="absolute left-0 right-0 h-40 bg-[#EEF5FF] top-1/2 -translate-y-1/2 z-0"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-center  gap-15 mb-12">
-          {/* Individual Card */}
           <div className="bg-white rounded-3xl p-8 text-center flex flex-col items-center space-y-6 w-80 h-80 border-gey-100 shadow-md">
             <div className="w-16 h-16 flex items-center justify-center">
               <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +56,6 @@ const Apply = () => {
             </Link>
           </div>
 
-          {/* Team Card */}
           <div className="bg-white rounded-3xl p-8 text-center flex flex-col items-center space-y-6  w-80 h-80   border-gey-100 shadow-md">
             <div className="w-16 h-16 flex items-center justify-center">
               <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,7 +109,6 @@ const Apply = () => {
           </div>
         </div>
 
-        {/* Notification Text */}
         <p className="text-center text-lg">
           We will inform applicants if they were selected by <span className="font-bold">Monday, March 17, 2025</span>.
         </p>

@@ -2,6 +2,13 @@ import Image from "next/image"
 import { FaCheckCircle } from "react-icons/fa"
 import participation from "../../assets/participation-requirement-image.png"
 const Participation = () => {
+    const requirements = [
+        "Teams must be physically present at the venue in Lagos throughout the duration of the hacker house (March 24-29).",
+        "Teams should ensure they can be fully engaged and attentive to their projects throughout this period.",
+        "All participants will be required to adhere to the event guidelines and code of conduct.",
+        "Intellectual property created by teams during the hacker house will be retained by those teams.",
+      ]
+      
   return (
     <div className="mt-5 md:mt-1 font-sans flex flex-col md:flex-row items-center gap-15 md:max-w-6xl md:mx-auto p-6">
       <div className="w-96 md:ml-6  md:p-0 md:w-3/5">
@@ -28,13 +35,5 @@ const Participation = () => {
     </div>
   )
 }
-
-const requirements = [
-  "Teams must be physically present at the venue in Lagos throughout the duration of the hacker house (March 24-29).",
-  "Teams should ensure they can be fully engaged and attentive to their projects throughout this period.",
-  "All participants will be required to adhere to the event guidelines and code of conduct.",
-  "Intellectual property created by teams during the hacker house will be retained by those teams.",
-]
-
 export default Participation
 

@@ -4,13 +4,10 @@ import profileImage from '../../assets/about-sui-image.svg';
 const About = () => {
     return (
         <div className=" font-sans  flex flex-col md:flex-row items-center justify-center gap-[10%] px-10 py-16 bg-white">
-            {/* Image Section */}
             <div className="font-semibold mt-10 relative">
-                {/* Blue Background Circle */}
                 <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-[rgb(10,23,57)] relative flex items-center justify-center overflow-hidden">
                     <Image src={profileImage} alt="Sui Lagos Hacker House" className="w-full h-full object-cover" />
                 </div>
-                {/* Floating Tags */}
                 <div className="absolute top-5 left-[-1px] bg-white shadow-md px-3 py-1 rounded-lg text-gray-600 text-sm flex items-center">
                     <span className="mr-1">🛠️</span> Web 3.0
                 </div>
@@ -18,8 +15,6 @@ const About = () => {
                     <span className="mr-1">🔗</span> Blockchain Tech
                 </div>
             </div>
-
-            {/* Text Section */}
             <div className="mt-10 md:w-[35%] text-left mt-5 text-[#2C2C2C] ">
                 <div className="mb-6 text-2xl font-bold text-[#187CF4]">About SUI Lagos Hacker House</div>
                 <p className="text-gray-700 mt-4">
