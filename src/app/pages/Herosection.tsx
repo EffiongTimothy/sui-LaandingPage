@@ -82,7 +82,7 @@ z
               priority
             />
           </div>
-          <h2 className="text-[#30D5D5] text-2xl mt-4">Road to Sui Overflow</h2>
+          <h2 className=" font-sans italic font-bold text-[#30D5D5] text-2xl mt-4">Road to Sui Overflow</h2>
         </div>
 
         <div className="font-sans absolute left-1/2 -translate-x-1/2 translate-y-25  md:translate-y-15 bottom-0 w-full max-w-3xl px-4">
