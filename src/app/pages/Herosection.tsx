@@ -64,7 +64,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="relative min-h-[600px] rounded-bl-[10%] bg-[#001437]">
+    <div className="relative min-h-[600px] md:rounded-bl-[10%] bg-[#001437]">
 z
       <div className="relative z-10 max-w-7xl mx-auto px-4 pt-8 pb-24">
         <div className="flex justify-center items-center gap-5 mb-16">
